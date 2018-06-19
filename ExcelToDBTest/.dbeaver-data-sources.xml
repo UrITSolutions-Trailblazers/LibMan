@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="derby-162bd4bf900-a33a9b74c11fa5e" provider="generic" driver="derby" name="Derby - LibManDB" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="C:\LibMan\LibManDB" url="jdbc:derby:C:\LibMan\LibManDB" type="dev"/>
+	</data-source>
+	<data-source id="hsqldb_embedded-1631481c924-2427b00b5af954ca" provider="generic" driver="hsqldb_embedded" name="HSQLDB - DB" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="C:\LibMan\LibManDB\DB" url="jdbc:hsqldb:file:C:\LibMan\LibManDB\DB" user="admin" password="EgALKU8jpQ==" type="prod">
+			<bootstrap autocommit="false"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
